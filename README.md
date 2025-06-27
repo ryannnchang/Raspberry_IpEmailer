@@ -29,7 +29,7 @@ Note: This script will contain the login credentials for an email account. Anyon
 
 Note: The script has a delay of 60 seconds to account to allow the Pi enough time to connect to wifi. You can adjust this to your setup by adjusting time.sleep(). I would not recommend going below 30 seconds. 
 
-### Step 8: Running the automatically script when the Raspberry Pi boots up
+### Step 3: Running the automatically script when the Raspberry Pi boots up
 1. Open up terminal on Raspberry Pi
 2. Enter “chmod +x ip_checker.py”
 3. Enter “crontab -e”
